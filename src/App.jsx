@@ -1,8 +1,12 @@
 import React from 'react'
+import './index.scss'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div className='test'>
+      abc
+      <div className='test--first'>nested</div>
+    </div>
   )
 }
 
